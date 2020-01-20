@@ -45,6 +45,7 @@ Bootstrap: docker
 
 %post
     apt-get update && apt-get install -y rar unrar
+    apt-get install wget
     
     cd ~
     mkdir mysudo
