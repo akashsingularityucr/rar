@@ -45,4 +45,13 @@ Bootstrap: docker
 
 %post
     apt-get update && apt-get install -y rar unrar
+    
+    cd ~
+    mkdir mysudo
+    cd mysudo
+    wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
+    mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
+    chmod +x gdrive
+    install gdrive /usr/local/bin/gdrive
+
 
