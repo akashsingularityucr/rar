@@ -48,9 +48,9 @@ Bootstrap: docker
     apt-get install -y apt-utils
     apt-get install -y wget
     
-    #cd ~
-    #mkdir mysudo
-    #cd mysudo
+    cd ~
+    mkdir mysudo
+    cd mysudo
     #wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
     #mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
     #chmod +x gdrive
